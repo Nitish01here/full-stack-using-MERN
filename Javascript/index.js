@@ -42,20 +42,20 @@
     
 // }
 
-let marks = 33;
-if (marks >= 80) {
-console.log("your grade is A+");
-}
-else if (marks>= 60) {
-console.log("your grade is A");
-}
-else if (marks >=33) {
-console.log("your grade is B");
-}
-else if (marks < 33) {
-console.log("you get fail");
+// let marks = 33;
+// if (marks >= 80) {
+// console.log("your grade is A+");
+// }
+// else if (marks>= 60) {
+// console.log("your grade is A");
+// }
+// else if (marks >=33) {
+// console.log("your grade is B");
+// }
+// else if (marks < 33) {
+// console.log("you get fail");
 
-}
+// }
 
 //else statement
 let age = 10;
@@ -81,5 +81,24 @@ console.log("go light color is green");
 }
 else {
     console.log("traffic light is broken");
+    
+}
+
+////nested if else statement
+
+let marks = 95 ;
+if (marks>=33) {
+ console.log("pass");
+ if (marks >= 80) {
+ console.log("grade O");
+    
+ }
+    else{
+        console.log("grade A");
+        
+    }
+}
+else{
+    console.log("better luck next time");
     
 }
