@@ -86,19 +86,47 @@ else {
 
 ////nested if else statement
 
-let marks = 95 ;
-if (marks>=33) {
- console.log("pass");
- if (marks >= 80) {
- console.log("grade O");
+// let marks = 95 ;
+// if (marks>=33) {
+//  console.log("pass");
+//  if (marks >= 80) {
+//  console.log("grade O");
     
- }
-    else{
-        console.log("grade A");
+//  }
+//     else{
+//         console.log("grade A");
         
-    }
-}
-else{
-    console.log("better luck next time");
+//     }
+// }
+// else{
+//     console.log("better luck next time");
     
+// }
+
+////logical operator
+////AND operator
+// let marks = 90;
+// if (marks >= 33 && marks>= 80) {
+//     console.log("pass");
+//     console.log("A+");
+ 
+// }
+
+
+
+// //OR operator
+// let marks = 90;
+// if (marks >= 33 || marks>= 80) {
+//     console.log("pass");
+//     console.log("A+");
+// }
+
+
+//logical operator
+//NOT operator
+let marks = 90;
+if (!(marks >= 33 )) {
+    console.log("pass");
+    console.log("A+");
 }
+
