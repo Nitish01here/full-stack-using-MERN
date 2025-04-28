@@ -124,9 +124,23 @@ else {
 
 //logical operator
 //NOT operator
-let marks = 90;
-if (!(marks >= 33 )) {
-    console.log("pass");
-    console.log("A+");
-}
+// let marks = 90;
+// if (!(marks >= 33 )) {
+//     console.log("pass");
+//     console.log("A+");
+// }
 
+//// alert and prompts
+
+//alert("this is an alert msg");
+//console.log("this is a simple log");
+//console.error("this is an erroe msg");
+//console.warn("this is a warning msg");
+
+//prompt("enter your name")
+// let firstName = prompt("enter your name :");
+// console.log(firstName);
+
+// let firstName = prompt("enter firstname name :");
+// let lastName = prompt("enter last name :");
+// console.log("welcom", firstName,lastName, "!");
