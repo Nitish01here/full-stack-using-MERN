@@ -52,10 +52,17 @@
 
 ////concatenation & reverse
 
-let primary = ["red","yellow","blue"];
-let secondary = ["orange","green","violet"];
-console.log(primary.concat(secondary));
-console.log(primary.reverse());
+// let primary = ["red","yellow","blue"];
+// let secondary = ["orange","green","violet"];
+// console.log(primary.concat(secondary));
+// console.log(primary.reverse());
 
+////slice
 
+// let colors = ["red","yellow","blue","orange","pinkl","white"];
+// console.log(colors.slice());
+// console.log(colors.slice(2));
+// console.log(colors.slice(2,3));
+// console.log(colors.slice(-2));
 
+//// splice
