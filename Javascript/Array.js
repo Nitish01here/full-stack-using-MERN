@@ -37,8 +37,25 @@
 // cars.pop();
 // console.log(cars);
 
-let cars = ["audi","BMW","honda","maruti"];
-cars.unshift("toyota");
-cars.shift();
-console.log(cars);
+// let cars = ["audi","BMW","honda","maruti"];
+// cars.unshift("toyota");
+// cars.shift();
+// console.log(cars);
+
+////array method (indexOf)
+
+// let cars = ["audi","BMW","honda","maruti"];
+// console.log(cars.indexOf("BMW"));
+// console.log(cars.indexOf("KIA"));
+// console.log(cars.includes("BMW"));
+// console.log(cars.includes("KIA"));
+
+////concatenation & reverse
+
+let primary = ["red","yellow","blue"];
+let secondary = ["orange","green","violet"];
+console.log(primary.concat(secondary));
+console.log(primary.reverse());
+
+
 
